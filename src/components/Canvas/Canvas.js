@@ -138,7 +138,6 @@ class Canvas extends React.Component {
   }
 
   onMouseMove = (e) => {
-    console.log("move move");
     this.draw(e.offsetX, e.offsetY);
     for (let i = 0; i < this.circles.length; i++) {
         let cir = this.circles[i];
@@ -177,7 +176,6 @@ class Canvas extends React.Component {
   }
 
   onMouseUp = (e) => {
-    console.log("move up");
     this.dragging = false;
     if (this.selCircs.length === 1) {
         this.selCircs[0].circ.selected = false;
