@@ -1,0 +1,8 @@
+nav {
+    background-color: #000;
+    color: whitesmoke;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    cursor: pointer;
+}

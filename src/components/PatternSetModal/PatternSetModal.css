@@ -1,0 +1,22 @@
+.Modal {
+    display: block;
+    background-color: rgba(0, 0, 0);
+    border-radius: 15px;
+    position: absolute;
+    top: 40%;
+    bottom: 40%;
+    left: 40%;
+    right: 40%;
+    margin: auto;
+    color: whitesmoke;
+    text-align: center;
+  }
+
+  .Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.2);
+  }

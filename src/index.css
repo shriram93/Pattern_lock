@@ -1,0 +1,8 @@
+body {
+    background-image: linear-gradient(to right top, #b179be, #a979c2, #a078c7, #9579cb, #8979cf);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    height: 100%;
+    overflow: hidden;
+}
