@@ -7,7 +7,7 @@ export default function Circle(center, radius) {
         };
     };
     this.draw = function (ctx,patternTried,selCircs,patternDone,patternMatch,parent) {
-        ctx.fillStyle = '#ffffff';
+        ctx.fillStyle = '#FFF';
         if (stroke) ctx.strokeStyle = stroke;
         ctx.beginPath();
         if ((this.hovering || this.selected) && !patternTried) {

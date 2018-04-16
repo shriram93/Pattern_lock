@@ -94,7 +94,7 @@ class Canvas extends React.Component {
     if (this.dragging && this.selCircs.length > 0 && !this.patternTried) {
       this.ctx.beginPath();
       this.ctx.lineWidth = 10;
-      this.ctx.strokeStyle = 'rgba(255,255,255)';
+      this.ctx.strokeStyle = '#FFF';
       this.ctx.lineCap = 'round';
       this.ctx.lineJoin = 'round';
       const lastDot = this.selCircs[this.selCircs.length - 1].circ.position();
@@ -112,7 +112,7 @@ class Canvas extends React.Component {
         } else if (this.patternDone && this.selCircs.length > 3) {
             this.ctx.strokeStyle = '#9CCC65';
         } else {
-            this.ctx.strokeStyle = 'rgba(255,255,255)';
+            this.ctx.strokeStyle = '#FFF';
         }
         this.ctx.lineCap = 'round';
         this.ctx.lineJoin = 'round';
