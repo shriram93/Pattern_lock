@@ -77,7 +77,7 @@ class Canvas extends React.Component {
             this.circles.push(new Circle({
               x: x,
               y: y
-          }, rad / 4));
+          }, rad ));
         }
     }
     this.draw();
@@ -230,7 +230,7 @@ class Canvas extends React.Component {
   render() {
     return (
       <div>
-        <canvas className={this.state.canavsClass} ref="canvas" width="500" height="500"></canvas>
+        <canvas className={this.state.canavsClass} ref="canvas" width="400vw" height="400vh"></canvas>
       </div>
     );
   }
